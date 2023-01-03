@@ -1,0 +1,45 @@
+.slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-slide {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.taille {
+    width: 600px;
+    height: 400px;
+
+}
+
+.carousel.carousel-slider .control-arrow {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    top: 320px;
+    bottom: 320px;
+}
+
+
+
+.carousel .carousel-status {
+    display: none;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* .carousel.carousel-slider .control-arrow {
+    padding: 25px;
+    top: 130px;
+    bottom: 130px;
+    border-radius: 1rem 0 0 1rem;
+    background: #00f0f0;
+    border-radius: 50%;
+} */
