@@ -86,7 +86,7 @@
     display: none;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .navbar__links {
         flex-direction: column;
         justify-content: center;

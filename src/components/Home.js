@@ -27,7 +27,7 @@ import mail1 from '../images/mail1.png'
 
 const Home = () => {
     return (
-        <div>
+        <div className='tout'>
             <Nav />
             <section id='home' className='home' >
                 <div className='titre'>
@@ -111,29 +111,45 @@ const Home = () => {
 
                 <div className='skills-container'>
                     {/* <div id='work' className='skills-container'> */}
-                    <div className='skilldiv'><a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'><img className='imgskill1' src={netflix} alt="imgfond" ></img>
-                        <p> </p></a>
-                    </div>
+                    <div className='X'>
+                        <div className='skilldiv'><a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'><img className='imgskill1' src={netflix} alt="imgfond" ></img>
+                            <p> </p></a>
+                            {/* <a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'><div className='imgskill2'></div>
+                            <p> </p></a> */}
+
+                        </div>
+                        <a href='https://gsssamba.github.io/FRONT-NETFLIX-v1/'> <div className='essaibox2'><p>NETFLIX-UI</p></div></a>                    </div>
+
                     {/* <div className='skilldiv'><img className='imgskill1' src={social2} alt="imgfond" ></img>
                         <p> </p>
                     </div> */}
-                    <div className='skilldiv'><a href='https://bookiii.netlify.app/'><img className='imgskill1' src={booki1} alt="imgfond" ></img>
-                        <p></p></a>
-                    </div>
-                    <div className='skilldiv'><a href='http://invader-gss.tk/'><img className='imgskill1 invader' src={invader2} alt="imgfond" ></img>
-                        <p></p></a>
-                    </div>
+                    <div className='X'>
+                        <div className='skilldiv'><a href='https://bookiii.netlify.app/'><img className='imgskill1' src={booki1} alt="imgfond" ></img>
+                            <p></p></a>
+                        </div>
+                        <a href='https://bookiii.netlify.app/'> <div className='essaibox2'><p>BOOKING-ONE-PAGE</p></div></a>                    </div>
+                    <div className='X'>
+                        <div className='skilldiv'><a href='http://invader-gss.tk/'><img className='imgskill1 invader' src={invader2} alt="imgfond" ></img>
+                            <p></p></a>
+                        </div>
+                        <a href='http://invader-gss.tk/'> <div className='essaibox2'><p>MY-SPACE-INVADERS-JS</p></div></a>                    </div>
 
                 </div>
                 <div className='skills-container'>
 
+                    <div className='X'>
+                        <div className='skilldiv'><a href='https://gsssamba.github.io/FLAG-EX/'><img className='imgskill1' src={map1} alt="imgfond" ></img>
+                            <p></p></a>
 
-                    <div className='skilldiv'><a href='https://gsssamba.github.io/FLAG-EX/'><img className='imgskill1' src={map1} alt="imgfond" ></img>
-                        <p></p></a>
-                    </div>
-                    <div className='skilldiv'><a href='https://0h-my-food.netlify.app/'><img className='imgskill1' src={omf} alt="imgfond" ></img>
-                        <p></p></a>
-                    </div>
+                        </div>
+                        <a href='https://gsssamba.github.io/FLAG-EX/'> <div className='essaibox2'><p>COUNTRY-SORTING-ALGORITHM</p></div></a>                    </div>
+                    <div className='X'>
+                        <div className='skilldiv'><a href='https://0h-my-food.netlify.app/'><img className='imgskill1' src={omf} alt="imgfond" ></img>
+                            <p></p></a>
+
+                        </div>
+                        <a href='https://0h-my-food.netlify.app/'> <div className='essaibox2'><p>OH-MY-FOOD-WEBSITE</p></div></a>                    </div>
+
                     {/* <div className='skilldivpim '><p className='parahidden'>Création d'un réseau social d'entreprise (C.R.U.D)</p><img className='imgskill1' src={social2} alt="imgfond" ></img>
                         <p> </p>
                     </div> */}
@@ -144,14 +160,14 @@ const Home = () => {
                         <div className='skilldivpim '><p className='parahidden'>Création d'une API REST/Authentification Utilisateur/Respect des normes RGPD/Cryptage MDP utilisateurs</p><img className='imgskill1' src={piment1} alt="imgfond" ></img>
                             <p></p>
                         </div>
-                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>Discutons-en ensemble</p></div></a>
+                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>LET'S TALK ABOUT IT</p></div></a>
                     </div>
                     <div className='skilldiv2 '>
 
                         <div className='skilldivpim  '><p className='parahidden'>Création d'un site E-COMMERCE d'achat de canapé en ligne</p><img className='imgskill1' src={KANAP1} alt="imgfond" ></img>
                             <p></p>
                         </div>
-                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>Discutons-en ensemble</p></div></a>
+                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>LET'S TALK ABOUT IT</p></div></a>
 
                     </div>
                     <div className='skilldiv2 '>
@@ -159,7 +175,7 @@ const Home = () => {
                         <div className='skilldivpim '><p className='parahidden'>Création d'un réseau social d'entreprise (C.R.U.D)</p><img className='imgskill1' src={social2} alt="imgfond" ></img>
                             <p> </p>
                         </div>
-                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>Discutons-en ensemble</p></div></a>
+                        <a href="mailto:gauthieredc@gmail.com"> <div className='essaibox'><p>LET'S TALK ABOUT IT</p></div></a>
 
                     </div>
                 </div>
@@ -170,13 +186,13 @@ const Home = () => {
                         <div className='contact2'>
                             <div className='contact3'>
                                 <a className='num' href="tel:06.61.50.50.55" alt="phone-number">
-                                    <img className='imgskill' src={phone2} alt="imgfond" ></img></a>
+                                    <img className='imgskill5' src={phone2} alt="imgfond" ></img></a>
                                 <p class="espace"><a className='mail' href="tel:06.61.50.50.55" alt="phone-number">
                                     06.61.56.50.55</a></p>
                             </div>
                             <div className='contact3'>
                                 <a className='num' href="mailto:gauthieredc@gmail.com" alt="mail">
-                                    <img className='imgskill' src={mail1} alt="imgfond" ></img></a>
+                                    <img className='imgskill5' src={mail1} alt="imgfond" ></img></a>
 
                                 <p class="espace"><a className='mail' href="mailto:gauthieredc@gmail.com" alt="mail">
                                     gauthieredc@gmail.com</a></p>                            </div>
